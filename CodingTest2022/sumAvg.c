@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>  // standard input output
+#include <stdlib.h> //standard library
 #include <time.h>
 
 int main(void) {
@@ -19,7 +19,7 @@ int main(void) {
         sum = sum + arr[i];
     }
     avg = (double)sum / 10;
-
+    
     printf("ÇÕ°è : %d\n", sum);
     printf("Æò±Õ : %lf\n", avg);
 
